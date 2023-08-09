@@ -1,0 +1,29 @@
+Create an application for flight booking with the following functionalities:-
+a. The administrator should be able to login and check the bookings.
+b. The administrator should be able to add the source and destination. He should be able to add the cost of  the ticket and apply taxes. There should be two types of tickets:economy and business.
+c.Users should be able to register and book a flight ticket. He should get an automatically generated PNR.   
+d. Users should also be able to see all the bookings.
+
+
+
+
+
+
+
+
+
+
+
+
+1. Login page for admin.
+2. Now the admin will add flights to his dashboard, like Delhi to Kolkata flights, Kolkata to Chennai etc  with the sheet availability.
+3. Now the admin will add the sheet and the price of the flight, like business class and economic class, including the GST in the dropdown.  Both classes' prices will be different.
+4. The administrator will check all the flight tickets booked by the different users.
+
+
+
+
+8. The user can check all his bookings on his dashboard.
+
+
+Admin dashboard: Add flight, flight list, user list, Bookings
