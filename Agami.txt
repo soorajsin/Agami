@@ -1,8 +1,2 @@
-1. Create a program that calculates the GCD or HCF of two numbers.
-2. Create a program to calculate the LCM of an array of elements.
-Please follow the instructions.
-    a. You must complete both questions in any language you want in 30 minutes.
-    b. You must create this programme on the compiler, or you may utilise an online compiler.
-c. I will provide you with user input, and you must show me the output of this program.
-Hcf Input = 16 and 34,
-,Lcm  array input = 12,15,9,10,6,3
+1. Write a function to check if a given number is a prime number
+2. Write a function to compute the the sum of n even numbers
