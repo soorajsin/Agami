@@ -35,7 +35,7 @@ public class LCM {
                     }
 
                     int calculatedLCM = calLCM(arr);
-                    System.out.println("The LCM is " + calculatedLCM);
+                    System.out.println("The LCM is  : " + calculatedLCM);
 
                     sc.close();
           }
