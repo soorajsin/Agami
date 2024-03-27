@@ -1,31 +1,28 @@
+// Write a function to check if a given number is a prime number
 import java.util.Scanner;
 
 public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("Enter a number");
-        int number=sc.nextInt();
+        System.out.println("Enter number :");
+        int n=sc.nextInt();
 
-        // int n=isPrime(number);
-
-        if(isPrime(number)){
-            System.out.println(number+"   is a prime number");
+        if(isPrime(n)){
+            System.out.println(n + "   is prime number");
         }else{
-            System.out.println(number+ "   is not prime number");
+            System.out.println(n + "   is not prime number");
         }
-
 
         sc.close();
     }
-
-    public static boolean isPrime(int num){
-        if(num<=1){
+    public static boolean isPrime(int n){
+        if(n<=1){
             return false;
         }
 
-        for(int i=2;i<=Math.sqrt(num);i++){
-            if(num%i == 0){
+        for(int i=2;i<=Math.sqrt(n);i++){
+            if(n%i == 0){
                 return false;
             }
         }
